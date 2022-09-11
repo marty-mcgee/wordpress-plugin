@@ -10,6 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/marty-mcgee/wordpress-plugin.git"
   },
+  "author": "Marty McGee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marty-mcgee/wordpress-plugin/issues"
+  },
+  "homepage": "https://github.com/marty-mcgee/wordpress-plugin#readme",
   "keywords": [
     "wordpress",
     "wordpress-plugin",
@@ -21,11 +27,5 @@
     "typescript",
     "tsx",
     "jsx"
-  ],
-  "author": "Marty McGee",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/marty-mcgee/wordpress-plugin/issues"
-  },
-  "homepage": "https://github.com/marty-mcgee/wordpress-plugin#readme"
+  ]
 }
