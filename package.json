@@ -1,13 +1,14 @@
 {
   "name": "wordpress-plugin",
-  "version": "0.1.6",
-  "description": "Boilerplate WordPress Plugin structure to support development of JavaScript frameworks: React, Vue, Vanilla, TypeScript, supporting Vite, NextJS, Nuxt, Gatsby, and JSX/TSX Components (like MUI), CSS (like Tailwind + Unity), data APIs (like REST and GraphQL). Supports TSC, ESLint + Prettier code definitions and formatting standards. Builds are handled primarily by Vite + Webpack.",
+  "version": "0.1.7",
+  "description": "Boilerplate WordPress Plugin structure to support development of JavaScript frameworks: React, Vue, Vanilla, TypeScript, supporting Vite, NextJS, Nuxt, Gatsby, and JSX/TSX Components (like MUI), CSS (like Tailwind + Unity), data APIs (like REST and GraphQL). Supports TypeScript TSC, ESLint + Prettier code definitions and formatting standards. Builds are handled primarily by Vite + Webpack.",
   "main": "index.js",
   "scripts": {
-    "dev": "vite --port 7777",
-    "build": "vite build",
-    "preview": "vite preview --port 7777",
-    "test": "cross-env echo \"Error: no test specified\" && exit 1"
+    "dev":      "vite --port 7777",
+    "build":    "vite build",
+    "preview":  "vite preview --port 7777",
+    "test":     "tsc",
+    "generic":  "cross-env echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
