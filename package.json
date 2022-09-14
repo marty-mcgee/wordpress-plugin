@@ -1,6 +1,6 @@
 {
   "name": "wordpress-plugin",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Boilerplate WordPress Plugin structure to support development of JavaScript frameworks: React, Vue, Vanilla, TypeScript, supporting Vite, NextJS, Nuxt, Gatsby, and JSX/TSX Components (like MUI), CSS (like Tailwind + Unity), data APIs (like REST and GraphQL). Supports TSC, ESLint + Prettier code definitions and formatting standards.",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "url": "https://github.com/marty-mcgee/wordpress-plugin/issues"
   },
   "homepage": "https://github.com/marty-mcgee/wordpress-plugin#readme",
-  "dependencies": {
+  "devDependencies": {
     "cross-env": "^7.0.3",
     "eslint": "^8.23.1",
     "pnpm": "^7.11.0",
