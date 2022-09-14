@@ -6,4 +6,15 @@ Boilerplate WordPress Plugin structure to support development of JavaScript fram
 
 Supports TSC, ESLint + Prettier code definitions and formatting standards.
 
+## Instructions
+
+requires pnpm: `npm install -g pnpm`
+
+install: `pnpm i`
+develop: `pnpm dev`
+build/deploy: `pnpm build`
+preview build: `pnpm preview`
+test: `pnpm test`
+
+====
 > part of the 🌱 threed.ai family
