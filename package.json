@@ -1,6 +1,6 @@
 {
   "name": "wordpress-plugin",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Boilerplate WordPress Plugin structure to support development of JavaScript frameworks: React, Vue, Vanilla, TypeScript, supporting Vite, NextJS, Nuxt, Gatsby, and JSX/TSX Components (like MUI), CSS (like Tailwind + Unity), data APIs (like REST and GraphQL). Supports TSC, ESLint + Prettier code definitions and formatting standards.",
   "main": "index.js",
   "scripts": {
