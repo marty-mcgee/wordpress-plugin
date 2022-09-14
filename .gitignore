@@ -6,6 +6,14 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+# NPM Builds
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# VS Code Workspaces
+# wordpress-plugin.code-workspace
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 

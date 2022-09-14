@@ -1,10 +1,13 @@
 {
   "name": "wordpress-plugin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Boilerplate WordPress Plugin structure to support development of JavaScript frameworks: React, Vue, Vanilla, TypeScript, supporting Vite, NextJS, Nuxt, Gatsby, and JSX/TSX Components (like MUI), CSS (like Tailwind + Unity), data APIs (like REST and GraphQL). Supports TSC, ESLint + Prettier code definitions and formatting standards.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite --port 7777",
+    "build": "vite build",
+    "preview": "vite preview --port 7777",
+    "test": "cross-env echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
